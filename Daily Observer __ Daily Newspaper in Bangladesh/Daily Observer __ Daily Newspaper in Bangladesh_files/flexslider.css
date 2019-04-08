@@ -1,0 +1,309 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Page Not Found | Daily Observer</title>
+<meta name="description" content="observerbd.com is one of the most reliable and popular news paper in bangladesh. We provide latest news about various categories for 24/7 days.">
+<link href="files/favicon.jpg" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<link href="files/style.css" rel="stylesheet" type="text/css" media="screen,print">
+<meta name="keywords" content="banglanews, bangla news, bangladeshi news, today news24, daily news, bangla news daily, bd news, bd news headlines, news headlines, all bangla newspaper, live newspaper headlines">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://www.observerbd.com">
+<meta property="og:image" content="http://www.observerbd.com/files/logo.jpg">
+<meta property="og:site_name" content="Daily Observer">
+<meta http-equiv="developer" content="Developed By: SM. Kafi
+Powered by : i2soft Technology Limited
+Web address : http://www.i2softbd.com
+Address : 53 Modern Mansion (11th Floor), Motijheel C/A, Dhaka - 1000, Bangladesh, Cell : 01711112420, 01611112420" />
+<meta http-equiv="refresh" content="1500"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<script language="javascript" src="files/jquery-1.7.1.min.js"></script>
+<script>
+	( function( $ ) {
+	$( document ).ready(function() {
+	$('#cssmenu').prepend('<div id="menu-button" style="background: #d8d8d8; color: #666">&nbsp;CATEGORY</div>');
+		$('#cssmenu #menu-button').on('click', function(){
+			var menu = $(this).next('ul');
+			if (menu.hasClass('open')) {
+				menu.removeClass('open');
+			}
+			else {
+				menu.addClass('open');
+			}
+		});
+	});
+	} )( jQuery );
+</script>
+<script>
+function archive() {
+      if(document.getElementById('archive').style.display=='none'){
+        document.getElementById('archive').style.display='block';
+      }else{
+        document.getElementById('archive').style.display='none';
+      }    
+    }
+</script>
+<body style="margin: 0 3px 0 3px">
+<div class="container box">
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 left" style="padding: 5px 5px 0 0">		
+		<div class="TopTitle"><a href="video.php">Video</a></div>
+		<div class="TopTitle"><a href="gallery.php">Gallery</a></div>
+		<div class="TopTitle"><a target="_blank" href="http://www.observerbd.com/eobserver">ePaper</a></div>
+		<div class="TopTitle"><a href="#" onClick="archive();">Archive</a></div>
+		<!-- Archive Start -->
+		<div id="archive" class="m_none" style="float:left; width: 175px; display: none">
+						<form target="_blank" name="frm_srch" action="archive.php" method="GET">
+							<table border="0" width="175" cellspacing="0" cellpadding="0" height="25">
+								<tr>
+									<td width="155">
+								<SELECT id='day' name='d' style="font-family: arial; font-size: 13px; width: 45px; overflow: hidden"> 
+                                <OPTION selected>Day</OPTION> 
+								<OPTION value="01">01</OPTION>
+								<OPTION value="02">02</OPTION> 
+								<OPTION value="03">03</OPTION> 
+								<OPTION value="04">04</OPTION> 
+								<OPTION value="05">05</OPTION> 
+								<OPTION value="06">06</OPTION> 
+								<OPTION value="07">07</OPTION>
+								<OPTION value="08">08</OPTION>
+								<OPTION value="09">09</OPTION>
+								<OPTION value="10">10</OPTION>
+								<OPTION value="11">11</OPTION>
+								<OPTION value="12">12</OPTION>
+								<OPTION value="13">13</OPTION>
+								<OPTION value="14">14</OPTION>
+								<OPTION value="15">15</OPTION>
+								<OPTION value="16">16</OPTION>
+								<OPTION value="17">17</OPTION>
+								<OPTION value="18">18</OPTION>
+								<OPTION value="19">19</OPTION>
+								<OPTION value="20">20</OPTION>
+								<OPTION value="21">21</OPTION>
+								<OPTION value="22">22</OPTION>
+								<OPTION value="23">23</OPTION>
+								<OPTION value="24">24</OPTION>
+								<OPTION value="25">25</OPTION>
+								<OPTION value="26">26</OPTION>
+								<OPTION value="27">27</OPTION>
+								<OPTION value="28">28</OPTION>
+								<OPTION value="29">29</OPTION>
+								<OPTION value="30">30</OPTION>
+								<OPTION value="31">31</OPTION>
+								</SELECT><SELECT id='month' name='m' style="font-family: arial; font-size: 13px; width: 45px; overflow: hidden"> 
+                                <OPTION selected>Month</OPTION> 
+								<OPTION value="01">01</OPTION>
+								<OPTION value="02">02</OPTION> 
+								<OPTION value="03">03</OPTION> 
+								<OPTION value="04">04</OPTION> 
+								<OPTION value="05">05</OPTION> 
+								<OPTION value="06">06</OPTION> 
+								<OPTION value="07">07</OPTION>
+								<OPTION value="08">08</OPTION>
+								<OPTION value="09">09</OPTION>
+								<OPTION value="10">10</OPTION>
+								<OPTION value="11">11</OPTION>
+								<OPTION value="12">12</OPTION>
+								</SELECT><SELECT id='year' name='y' style="font-family: arial; font-size: 13px; width: 45px; overflow: hidden"> 
+                                <OPTION selected>Year</OPTION> 
+								<OPTION value="2014">2014</OPTION>
+								<OPTION value="2015">2015</OPTION>
+								<OPTION value="2016">2016</OPTION>
+								<OPTION value="2017">2017</OPTION>
+								</SELECT>
+									</td>
+									<td width="20"><input type="submit" value="GO" style="font-size: 13px; font-family: Arial">
+								</td>
+								</tr>
+							</table>
+					</form>
+		</div>
+		<!-- Archive End -->
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 right m_none" style="padding: 0 5px 0 0">
+		<map name="FPMap0">
+			<area target="_blank" href="http://observerbd.com/rss.php" shape="rect" coords="78, 0, 99, 24">
+			<area target="_blank" href="https://plus.google.com" shape="rect" coords="50, 0, 76, 24">
+			<area target="_blank" href="https://twitter.com/?lang=en" shape="rect" coords="27, 2, 49, 24">
+			<area target="_blank" href="https://www.facebook.com/observerbd" shape="rect" coords="4, 0, 25, 24">
+		</map>	
+		<img border="0" src="files/share-ico.jpg" style="width: 101px; height: 25px; margin: 5px 0 0 0" usemap="#FPMap0">
+	</div>
+	<div class="clear m_none t_none"></div><div class="clear d_none" style="margin: 0 0 20px 0"></div>
+<!-- banner -->
+	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 m_none t_none left" style="padding: 0px">
+		<a target="_blank" href="http://www.pubalibangla.com">
+		<img border="0" src="ad/pubali.jpg" width="90%" style="margin: 5px 0 0 0; border: 1px solid #f0eeee"></a>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 center" style="padding: 0px">
+		<a href="index.php"><img border="0" class="logo" src="files/logo.jpg"></a>
+	</div>
+	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 m_none t_none right" style="padding: 0px">	
+		<a target="_blank" href="bn/">
+		<img border="0" src="ad/bangla.jpg" width="90%" style="margin: 5px 0 0 0; border: 1px solid #f0eeee"></a>
+	</div>
+<!-- banner -->
+	<div class="clear"></div>
+	<!-- time & search -->
+	<div style="padding: 0 0 0 0">
+		<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12" style="padding: 5px 0 0 0">
+			<div class="time">Sunday, 27 May, 2018, 6:16 PM</div>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 m_none" style="padding: 5px 0 0 0">
+			<div style="text-align:right">
+				<form action="search.php" id="cse-search-box" style="height: 26px; overflow: hidden; padding: 0px; margin: 0 0 0 0">
+					<div style="float:right">					
+						<input type="hidden" name="cx" value="partner-pub-2946490312175476:8048617947" />
+						<input type="hidden" name="cof" value="FORID:10" />
+						<input type="hidden" name="ie" value="UTF-8" />
+						<input type="text" name="q" size="20" />					
+					<input class="unicode" type="submit" name="" value="Search" style="background: #AAAAAA; border: 1px solid #AAAAAA; color: #fff; border-left: none; width: 48px; height: 24px;">
+					</div>
+				</form>	
+				<!-- <script type="text/javascript" src="http://www.google.com.bd/coop/cse/brand?form=cse-search-box&amp;lang=en"></script> -->
+			</div>			
+		</div>
+	<div class="clear"></div>
+	</div>
+	<!-- time & search -->
+<div class="clear"></div>
+
+<div style="background: #d8d8d8; border: 1px solid #cccccc">
+	<!-- Menu Start -->
+		<div id='cssmenu'>
+<ul>
+	<li class="active m_none"><a href="index.php"><img border="0" src="files/home.png" alt="home" width="15" height="12"></a></li>
+	<li><a href="#">Print Version</a>
+		<ul>
+				<li><a href="cat.php?cd=193">Front Page</a></li><li><a href="cat.php?cd=194">Back Page</a></li><li><a href="cat.php?cd=199">Editorial</a></li><li><a href="cat.php?cd=200">Op-Ed</a></li><li><a href="cat.php?cd=195">City News</a></li><li><a href="cat.php?cd=197">Countryside</a></li><li><a href="cat.php?cd=198">Foreign News</a></li><li><a href="cat.php?cd=208">Art & Culture</a></li><li><a href="cat.php?cd=202">Eduvista</a></li><li><a href="cat.php?cd=201">Sports</a></li><li><a href="cat.php?cd=203">Miscellaneous</a></li><li><a href="cat.php?cd=196">Business</a></li><li><a href="cat.php?cd=204">Life & Style</a></li>		</ul>
+	</li>
+	<li><a href="#">Feature</a>
+		<ul>
+				<li><a href="cat.php?cd=205">Women's Own</a></li><li><a href="cat.php?cd=209">Observer TeCH</a></li><li><a href="cat.php?cd=207">Health & Nutrition</a></li><li><a href="cat.php?cd=210">Literature</a></li><li><a href="cat.php?cd=214">Young Observer</a></li><li><a href="cat.php?cd=204">Life & Style</a></li><li><a href="cat.php?cd=206">Law & Justice</a></li><li><a href="cat.php?cd=215">Book Review</a></li>		</ul>
+	</li>
+	<li><a href="cat.php?cd=186">National</a></li><li><a href="cat.php?cd=187">International</a></li><li><a href="cat.php?cd=191">Business</a></li><li><a href="cat.php?cd=185">Sports</a></li><li><a href="cat.php?cd=188">Countryside</a></li><li><a href="cat.php?cd=192">Don't miss</a></li>	
+<li><a href="#">Eid Magazine</a>
+	<ul>
+		<li><a target="_blank" href="issue/index.php?cd=2017">Magazine 2017</a></li>
+		<li><a target="_blank" href="issue/index.php?cd=2016">Magazine 2016</a></li>
+		<li><a target="_blank" href="issue/index.php?cd=2015">Magazine 2015</a></li>
+	</ul>
+</li>
+</ul>
+</div>
+<div class="clear"></div>	<!-- Menu End -->
+</div>
+<div class="clear" style="margin: 0 0 10px 0"></div>
+
+
+		
+<div class="clear" style="margin: 0 0 10px 0"></div>
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding: 100px 0 100px 0">
+	<!-- Not Found -->	
+		<h1 style="font-size: 72px; color: #cc0000">404</h1>
+		<h4 style="font-size: 24px; color: #666666">The Page you requested dose not exist.
+		The link you followed may be broken or the page has been deleted after your last visit<BR><BR><BR>
+		Please use the menus, search box or <a href="index.php">Homepage</a> for what you need. Thanks.	</h4>				
+	<!-- Not Found -->
+</div>
+
+<div class="clear" style="margin: 0 0 15px 0"></div>
+	<div style="margin: 20px 0 0 0; width: 100%; color: #212121; border-top: 2px solid #ddd; text-align: center; font-size: 13px; padding: 10px">
+		<div style="font-size: 18px; font-weight: bold">Editor : Iqbal Sobhan Chowdhury</div>
+		<BR>
+		<BR>
+		,
+		&nbsp; <a href="http://www.observerbd.com/about-us.php">[ABOUT US]</a>&nbsp;&nbsp; 
+		&nbsp; <a href="http://www.observerbd.com/contact-us.php">[CONTACT US]</a>&nbsp;&nbsp; 
+		<a target="_blank" href="http://www.observerbd.com/ad/ad_rate.php">[AD RATE]</a>&nbsp;&nbsp; <a target="_blank" href="http://www.i2softbd.com"><span style="color: #000; font-family: Arial; font-size: 13px; color: #666">Developed & Maintenance by i2soft</span></a>		
+	</div>
+
+<div style="display:none">
+<!-- Histats.com  START  (aync)-->
+	<div id="histats_counter"></div>
+	<script type="text/javascript">var _Hasync= _Hasync|| [];
+	_Hasync.push(['Histats.start', '1,2616486,4,3021,130,80,00010011']);
+	_Hasync.push(['Histats.fasi', '1']);
+	_Hasync.push(['Histats.track_hits', '']);
+	(function() {
+	var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+	hs.src = ('//s10.histats.com/js15_as.js');
+	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+	})();</script>
+<!-- Histats.com  END  -->
+</div>
+
+<style type="text/css">
+    #back-to-top {
+    position: fixed;
+    bottom: 0;
+    left: 2px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: #f5f5f5;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+#back-to-top:hover {
+    background: #e9ebec;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+</style>
+
+<script type='text/javascript'>//<![CDATA[
+$(window).load(function(){
+if ($('#back-to-top').length) {
+    var scrollTrigger = 100, // px
+        backToTop = function () {
+            var scrollTop = $(window).scrollTop();
+            if (scrollTop > scrollTrigger) {
+                $('#back-to-top').addClass('show');
+            } else {
+                $('#back-to-top').removeClass('show');
+            }
+        };
+    backToTop();
+    $(window).on('scroll', function () {
+        backToTop();
+    });
+    $('#back-to-top').on('click', function (e) {
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: 0
+        }, 700);
+    });
+}
+});//]]> 
+
+</script>
+<a href="#" id="back-to-top" title="Back to top"><img border="0" src="images/up.png" width="32" height="32"></a>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108135637-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-108135637-1');
+</script>
+</div>
+<div class="clear"></div>
+<script type="text/javascript" src="files/jquery.lazyload.min.js"></script>
+<script>
+	$(document).ready(function(){	
+		$("img.lazy").lazyload({effect : "fadeIn" });
+	});
+</script>
+</body>
+</html>
